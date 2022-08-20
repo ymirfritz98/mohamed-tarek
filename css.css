@@ -1,0 +1,51 @@
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.one {
+  width: 600px;
+  height: 350px;
+}
+.two {
+  background-color: wheat;
+  width: 600px;
+  height: 350px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.a {
+  border: solid black 2px;
+}
+.b {
+  border: solid black 2px;
+}
+.c {
+  border: solid black 2px;
+}
+.d {
+  border: solid black 2px;
+}
+.f {
+  border: solid black 2px;
+}
+.g {
+  border: solid black 2px;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+}
